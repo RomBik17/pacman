@@ -1,0 +1,46 @@
+
+# Screen constants
+WIDTH, HEIGHT = 670, 670
+FPS = 60
+PADDING = 50
+MAZE_WIDTH, MAZE_HEIGHT = WIDTH - PADDING, HEIGHT - PADDING
+
+ROWS = 31
+COLS = 31
+
+# Colour constants
+BLACK = (0, 0, 0)
+WHITE = (255, 255, 255)
+YELLOW = (255, 255, 0)
+BLUE = (0, 0, 255)
+GREEN = (0, 255, 0)
+ORANGE = (255,127,0)
+RED = (255, 0, 0)
+GREY = (128, 128, 128)
+
+
+# Font constants
+START_TEXT_SIZE = 36
+START_FONT = 'Impact'
+
+# Game states
+MENU = 1
+GAMING = 2
+GAME_OVER = 3
+WINNER = 4
+
+# Player constants
+PLAYER_COLOUR = YELLOW
+PLAYER_LIVES = 3
+DESTINATION = (29, 29)
+
+#Map constants
+WALL = 1
+COIN = 2
+PLAYER = 3
+ENEMY = 4
+BLOCKED = 1
+PASSAGE = 0
+GREEN_ZONE = 8
+ORANGE_ZONE = 9
+RED_ZONE = 10
